@@ -1,0 +1,82 @@
+# Common temp or backup files
+*.bak
+.DS_Store
+*~
+*.swp
+
+# Python compiled/object files
+*.pyo
+*.pyc
+
+# Jupyter files
+*.ipynb*
+
+# Node modules
+node_modules/
+
+# Git flow
+/gitflow/**
+
+# Eclipse/PyDev project files
+.project
+.cproject
+.pydevproject
+
+# JetBrains/PyCharm/Android Studio project files
+.idea
+*.iml
+
+# Local python virtual environment
+venv
+.venv
+
+hydrogen_built
+
+# Test-generated files
+.coverage
+cover
+nosetests.xml
+coverage.xml
+/conf
+coverage-final.json
+
+# for git
+/sites/my/js/coverage
+# for the silver searcher (ag)
+sites/my/js/coverage
+sites/my/js/test-results.xml
+sites/modular-install/node_modules/**
+
+# consumer/conf/environment.conf
+
+# Ignore celery worker1 log
+*.log
+
+celerybeat-schedule
+
+# Ignore .pid files
+*.pid
+
+client-min.js
+
+revision.properties
+
+# ignore the thermostat bin directory
+firmware/ecofactor-thermostat/bin
+firmware/ecofactor-wifi-tstat/bin
+firmware/wmsdk_bundle-3.4.6/bin
+firmware/wmsdk_bundle-3.4.6/boot2/src/mw300/bh_generator
+# www is generated from javascript in ap_site, by firmware makefile
+firmware/ecofactor-wifi-tstat/www
+
+## Prevent secrets and test results from alpha flatbill
+/alpha/flatbill/vault_decrpyt_pii_api/.vault_decrypt_pii_api.creds
+/alpha/flatbill/vault_decrpyt_pii_api/vault_decrypt_pii_api.cfg
+/alpha/flatbill/vault_decrpyt_pii_api/nginx-conf/ecowild.key
+/alpha/flatbill/vault_decrpyt_pii_api/nginx-conf/ca.crt
+/alpha/flatbill/vault_decrpyt_pii_api/nginx-conf/ecowild.pem
+/alpha/flatbill/tests/node_modules/
+/alpha/flatbill/tests/package.json
+/alpha/flatbill/tests/package-lock.json
+/alpha/flatbill/tests/test_flat_rate_signup_pilot*.png
+
