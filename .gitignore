@@ -8,8 +8,9 @@
 *.pyo
 *.pyc
 
-# Jupyter files
-*.ipynb*
+# Jupyter checkpoint files
+*checkpoint.ipynb
+# Jupyter Tensorboard log files
 */logs/*
 
 # Node modules
